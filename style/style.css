@@ -1,0 +1,40 @@
+button.btn {
+    text-transform: uppercase;
+}
+
+tr{
+    margin: 4px 0 6px;
+}
+
+td, th {
+    vertical-align: middle !important;
+    text-align: center !important;
+}
+
+th{
+    font-size:21px;
+    border-right: 2px solid #eee;
+
+}
+td {
+    border-right: 2px solid #eee;
+}
+
+th:last-of-type, td:last-of-type{
+    border-right:none;
+}
+
+.input-group, .app-name-header h1 {
+    margin: 20px 0;
+}
+
+svg {
+    height: 90px;
+}
+
+td:first-of-type, td:first-of-type > div {
+    height:200px;
+    width:250px;
+    border: 1px solid #eee;
+    padding:.1px;
+}
